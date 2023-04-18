@@ -8,6 +8,6 @@ if [ $a = 1 ] ; then
     git add . --all
     git commit -m "update"
     git push
-    /var/www/update_pd.sh
+    ssh iris2 /mnt/Iris2_ExtL/Packages/update_sc.sh
 fi
 conda deactivate
